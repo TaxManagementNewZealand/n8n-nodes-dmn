@@ -1,5 +1,5 @@
 {
-  "name": "@that-one-tom/n8n-nodes-dmn",
+  "name": "@taxmanagementnz/n8n-nodes-dmn",
   "version": "0.1.15",
   "description": "n8n node for DMN (Decision Model and Notation) decision tables",
   "keywords": [
@@ -9,14 +9,14 @@
     "rules-engine"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/TaxManagementNewZealand/n8n-nodes-dmn",
   "author": {
-    "name": "that-one-tom",
-    "email": "thomas@thomasmartens.eu"
+    "name": "Benjamin Sebastian III",
+    "email": "benjamin.s@tmnz.co.nz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/that-one-tom/n8n-nodes-dmn.git"
+    "url": "https://github.com/TaxManagementNewZealand/n8n-nodes-dmn.git"
   },
   "main": "index.js",
   "scripts": {
