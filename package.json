@@ -1,6 +1,6 @@
 {
   "name": "@taxmanagementnz/n8n-nodes-dmn",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "n8n node for DMN (Decision Model and Notation) decision tables",
   "keywords": [
     "n8n-community-node-package",
@@ -37,7 +37,7 @@
       "dist/nodes/DMN/Dmn.node.js"
     ]
   },
-"devDependencies": {
+  "devDependencies": {
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.3",
