@@ -4,7 +4,6 @@ import {
 	INodeType,
 	INodeTypeDescription,
 	NodeOperationError,
-	NodeConnectionType,
 	ApplicationError,
 } from 'n8n-workflow';
 
@@ -51,8 +50,8 @@ export class Dmn implements INodeType {
 		defaults: {
 			name: 'DMN Decision Table',
 		},
-		inputs: [NodeConnectionType.Main],
-		outputs: [NodeConnectionType.Main],
+		inputs: ['main'],
+		outputs: ['main'],
 		properties: [
 			{
 				displayName: 'Operation',
